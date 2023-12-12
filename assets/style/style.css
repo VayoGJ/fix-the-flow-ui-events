@@ -83,6 +83,6 @@ a:nth-of-type(12) {
 animation: change 1.3s linear 1; }
 
 @keyframes colorchange {
-  0% { background:#9d7beb; border-color: #9d7beb; }
+  0% { background:red; border-color: red; }
   30%, 100% { background:#7ce7c9; border-color: #7ce7c9; }
 }
