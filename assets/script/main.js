@@ -9,6 +9,8 @@ function jumpHandler() {
 
 let color = document.querySelector(`a:nth-of-type(1)`)
 
+console.log(color);
+
 color.addEventListener(`click`, colorchange)
 color.addEventListener(`animationend`, colorchange)
 

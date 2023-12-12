@@ -80,9 +80,9 @@ a:nth-of-type(12) {
 
 /* Jouw animaties */
 .colorchange { 
-animation-name: colorchange
-animation-duration.3s 
-animation-timing-function: linear
+animation-name: colorchange;
+animation-duration: 1.3s ;
+animation-timing-function: linear;
 animation-iteration-count: 1; }
 
 @keyframes colorchange {
