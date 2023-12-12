@@ -11,9 +11,9 @@ let color = document.querySelector(`a:nth-of-type(1)`)
 
 console.log(color);
 
-color.addEventListener(`click`, colorchange)
-color.addEventListener(`animationend`, colorchange)
+color.addEventListener(`click`, change)
+color.addEventListener(`animationend`, change)
 
-function colorchange(){
-  color.classList.toggle(`colorchange`)
+function change(){
+  color.classList.toggle(`change`)
 }
