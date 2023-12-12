@@ -80,12 +80,9 @@ a:nth-of-type(12) {
 
 /* Jouw animaties */
 .colorchange { 
-animation-name: changed ;
-animation-duration: 1.3s ;
-animation-timing-function: linear;
-animation-iteration-count: 1; }
+animation: change 1.3s linear 1; }
 
 @keyframes colorchange {
   0% { background:#9d7beb; border-color: #9d7beb; }
-  30%,100% { background:#7ce7c9; border-color: #7ce7c9; }
+  30%, 100% { background:#7ce7c9; border-color: #7ce7c9; }
 }
