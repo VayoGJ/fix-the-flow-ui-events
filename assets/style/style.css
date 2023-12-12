@@ -80,7 +80,7 @@ a:nth-of-type(12) {
 
 /* Jouw animaties */
 .colorchange { 
-animation: change 1.3s linear 1; }
+animation: colorchange 1.3s linear 1; }
 
 @keyframes colorchange {
   0% { background:red; border-color: red; }
